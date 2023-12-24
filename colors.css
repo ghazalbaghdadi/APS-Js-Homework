@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.base{
+    width: 50rem;
+    height: 28rem;
+    background-color: white;
+    border-radius: 70px;
+    border: 3rem solid rgb(208, 208, 208);
+}
+#center{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+div img{
+    width: 22rem;
+    position: absolute;
+    top: 17rem;
+    right: 12rem;
+}
+input{
+    width: 3.1rem;
+    height: 4.3rem;
+    border: 3px solid  rgba(217, 217, 217, 0.824);
+    margin: 0 1.8rem ;
+}
+.circles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.circles button{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    border: 1px solid white;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+
