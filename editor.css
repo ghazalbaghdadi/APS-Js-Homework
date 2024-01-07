@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(249, 237, 135);
+}
+img{
+    width: 550px;
+}
+.textArea{
+    width: 530px;
+    height: 450px;
+    border-radius: 2rem;
+    background-color: rgb(248, 228, 197);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 6rem;
+    margin-left: 3.3rem;
+}
+.icons i{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #4f301b;
+    padding: 0.5rem;
+    font-size: 2rem;
+    display: flex;
+    margin:  0.5rem 1rem;
+    color:  rgb(248, 228, 197);
+}
+.textSection{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2rem;
+}

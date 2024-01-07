@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Anton&family=Bagel+Fat+One&family=Bebas+Neue&family=Caveat:wght@500;600&family=Cherry+Bomb+One&family=Croissant+One&family=Dancing+Script:wght@400;600&family=Esteban&family=Exo+2:ital,wght@0,300;1,200&family=Faster+One&family=Fontdiner+Swanky&family=Frijole&family=Fuggles&family=Gorditas:wght@700&family=KoHo&family=Lemon&family=Lora:ital@1&family=Mina&family=Nosifer&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Rajdhani&family=Rancho&family=Rubik+Dirt&family=Shadows+Into+Light&family=Trade+Winds&display=swap');
+
+body{
+background-color: #63c5da;
+}
+.se{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0 5rem;
+    
+}
+.up{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.down{
+    display: flex;
+    justify-content: center;
+}
+#text{
+    text-align: center;
+    font-size: 5rem;
+    margin: 0;
+    font-family: 'Lemon';
+}
+.spring{
+    background: linear-gradient(to right,#FFADE6, #F169E8),url('.');
+    border: rgb(164, 0, 164) 2px solid;
+    font-size: 0;
+}
+.summer{
+    background: linear-gradient(to right,#90F8A7, #4DAF5D);
+    border: green 2px solid;
+    font-size: 0;
+}
+.fall{
+    background: linear-gradient(to right,#FFDE59, #FF914D);
+    border: rgb(193, 81, 0) 2px solid;
+    font-size: 0;
+}
+.winter{
+    background: linear-gradient(to right, #CDFFD8, #94B9FF);
+    /* background-image: url('https://accucut.com/cdn/shop/products/S1603.jpg?v=1575932460'); */
+    background-position: center;
+    background-size: contain;
+    border: blue 2px solid;
+    font-size: 0;
+}
