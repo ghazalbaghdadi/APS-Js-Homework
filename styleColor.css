@@ -1,20 +1,15 @@
-html,
-body {
-  font-family: "Source Sans Pro", -apple-system, system-ui, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+html {
+  display: flex;
+  justify-content: center;
+  margin-top: 13rem;
 }
-
-.site-footer {
-  margin-top: 4em;
+#content{
+  width: 200px;
+  height: 80px;
+  border-radius: 15px;
+  padding: 2rem;
 }
-
-.site-footer p {
-  border-top: 1px solid #dccdc6;
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
-
-.navbar-brand > img {
-  max-height: 40px;
-  width: auto;
+select{
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
 }

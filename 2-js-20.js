@@ -2,17 +2,20 @@
 // todo1: Look at the code below, fix it, and explain how you resolved the problem.
 // Note: In this code, console.log and console.dir should refer to the button and h1 element, not the window.
 
+// ** First of all we change the rgb and add some (,) between each ${} so that will work properly.
+// ** second when we use (this) inside an arrow function that will point to the window ! to resolve this problem we should change the arrow functions into a regular one and now when you click on each button the console.log and console.dir will refer to the button and h1 element , not the window.
+
 const makeRandColor = () => {
   const r = Math.floor(Math.random() * 256);
   const g = Math.floor(Math.random() * 256);
   const b = Math.floor(Math.random() * 256);
-  return `rgb(${r}${g}${b})`;
+  return `rgb(${r},${g},${b})`;
 };
 
-const buttons = document.querySelectorAll('button');
+const buttons = document.querySelectorAll("button");
 
 for (let button of buttons) {
-  button.addEventListener('click', () => {
+  button.addEventListener("click", function () {
     console.log(this);
     console.dir(this);
     button.style.backgroundColor = makeRandColor();
@@ -20,9 +23,9 @@ for (let button of buttons) {
   });
 }
 
-const h1s = document.querySelectorAll('h1');
+const h1s = document.querySelectorAll("h1");
 for (let h1 of h1s) {
-  h1.addEventListener('click', () => {
+  h1.addEventListener("click", function () {
     console.log(this);
     console.dir(this);
     h1.style.backgroundColor = makeRandColor();
